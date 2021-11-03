@@ -1,0 +1,200 @@
+* {
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+}
+
+.open__menu i {
+    color: #fff;
+}
+
+nav .logo,
+nav .logo i {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+nav .menu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .open__menu,
+nav .close__menu {
+    font-size: 1.5rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px 32px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+
+/* Hero styles */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    padding: 40px 0;
+}
+
+.subtitle h3,
+.contact h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.subtitle .first__layer,
+.subtitle .second__layer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+
+.subtitle .first__layer img {
+    width: 55%;
+}
+
+.subtitle .first__layer div {
+    width: 40%;
+}
+
+.subtitle .first__layer p,
+.subtitle .second__layer p {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.subtitle .second__layer {
+    display: flex;
+    padding: 100px 200px;
+}
+
+.subtitle .second__layer img,
+.subtitle .second__layer div {
+    width: 45%;
+}
+
+
+/* Contact section styles */
+
+.contact {
+    padding: 200px;
+}
+
+.contact .contact__form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 0.2);
+}
+
+.contact .contact__form input,
+.contact .contact__form textarea {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.contact .contact__form input:focus-visible,
+.contact .contact__form textarea:focus-visible {
+    outline: 0;
+}
+
+.contact .contact__form textarea {
+    padding: 20px;
+    resize: none;
+}
+
+.contact .contact__form input {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.contact .contact__form .button {
+    text-align: right;
+}
+
+.contact .contact__form button {
+    font-size: 1rem;
+}
+
+
+/* Footer styles */
+
+.footer {
+    background-color: #000;
+    color: rgb(204, 204, 204);
+    padding: 50px 0;
+}
+
+.footer .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.footer .footer__inner .links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer__inner p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.footer .copyright {
+    padding: 0px 50px 0px 150px;
+    text-align: center;
+}
+
+.footer .copyright hr {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,140 @@
+        @media (max-width:800px) {
+            nav {
+                padding: 0px 20px;
+            }
+            nav .menu {
+                height: 100vh;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 20;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: top 1s ease;
+                display: none;
+                background-color: #000;
+                color: #fff;
+            }
+            nav .menu li a {
+                color: #fff
+            }
+            nav .menu .close__menu {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            nav .open__menu {
+                display: block;
+            }
+            .hero h1 {
+                font-size: 3rem;
+                font-weight: 800;
+            }
+            button {
+                padding: 12px 32px;
+                background-color: #000;
+                border: none;
+                color: #fff;
+                margin-top: 20px;
+                font-size: 1.2
+            }
+            .subtitle h3,
+            .contact h3 {
+                text-align: center;
+                font-size: 2rem;
+                margin-bottom: 100px;
+            }
+            .subtitle .first__layer,
+            .subtitle .second__layer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                padding-right: 0px;
+            }
+            .subtitle .first__layer img {
+                width: 100%;
+            }
+            .subtitle .first__layer div {
+                width: 100%;
+                padding: 20px;
+            }
+            .subtitle .first__layer p {
+                width: 100%;
+                font-size: 1.1rem;
+                line-height: 1.7rem;
+            }
+            .subtitle .second__layer {
+                padding: 10px;
+                flex-direction: column-reverse;
+            }
+            .subtitle .second__layer img,
+            .subtitle .second__layer div {
+                width: 100%;
+            }
+            .subtitle .second__layer img {
+                margin-bottom: 20px;
+            }
+            /* Contact section styles */
+            .contact {
+                padding: 0px 0;
+            }
+            .contact .contact__form {
+                width: 100vw;
+                margin: 0 auto;
+                padding: 30px 10px;
+                box-shadow: 0 3px 4px rgb(0 0 0 / 0.2);
+            }
+            .contact .contact__form input,
+            .contact .contact__form textarea {
+                width: 100%;
+                padding-left: 20px;
+            }
+            .contact .contact__form input:focus-visible,
+            .contact .contact__form textarea:focus-visible {
+                outline: 0;
+            }
+            .contact .contact__form textarea {
+                padding: 20px;
+                resize: none;
+                /* height: 100px; */
+            }
+            .contact .contact__form input {
+                margin-bottom: 20px;
+                height: 50px;
+            }
+            .contact .contact__form .button {
+                text-align: right;
+            }
+            .contact .contact__form button {
+                font-size: 1rem;
+            }
+            /* Footer styles */
+            .footer .footer__inner {
+                flex-direction: column;
+                padding: 50px 10px;
+            }
+            .footer .footer__inner .links {
+                width: 100%;
+                flex-direction: column;
+            }
+            .footer .footer__inner p {
+                font-size: 1rem;
+                line-height: 2rem;
+            }
+            .footer .copyright {
+                padding: 10px;
+                text-align: center;
+            }
+            .footer .copyright hr {
+                margin-bottom: 20px;
+            }
+            .footer .company,
+            .footer .links1,
+            .footer .links2 {
+                margin-bottom: 20px;
+            }
+        }
